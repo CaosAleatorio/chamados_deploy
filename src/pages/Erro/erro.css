@@ -1,0 +1,36 @@
+.erro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda a altura da tela */
+    background-color: #ccc; 
+    color: #000; 
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.erro-icon {
+    font-size: 100px; /* Tamanho grande para o ícone */
+    margin-bottom: 20px; /* Espaçamento abaixo do ícone */
+}
+
+.erro-title {
+    font-size: 48px; /* Tamanho maior para o título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.erro-message {
+    font-size: 24px; /* Tamanho do texto da mensagem */
+    margin-bottom: 20px; /* Espaçamento abaixo da mensagem */
+}
+
+.erro-link {
+    font-size: 20px; /* Tamanho do texto do link */
+    color: #0056b3; /* Cor do link */
+    text-decoration: none; /* Sem sublinhado */
+}
+
+.erro-link:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
